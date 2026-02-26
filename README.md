@@ -10,6 +10,7 @@ Complete guide for senior **Node.js / TypeScript** developer interviews at top t
 nodejs-senior-interview/
 ├── README.md
 ├── PRACTICE_90MIN.md            # 90-minute rapid practice sheet
+├── LIVE_CODING_45MIN_FINANCE_CRM.md  # 45-min live coding prep for finance / CRM
 ├── code/                        # 16 runnable TypeScript / JavaScript files
 │   ├── 01_js_fundamentals.ts
 │   ├── 02_typescript_deep_dive.ts
@@ -209,6 +210,26 @@ npm install -D typescript tsx @types/node
 | Fri | Weak-spots review, redo hardest problems | all |
 | Sat | Full mock: 45 min system design + 45 min coding | all |
 | Sun | Rest. You are ready. | -- |
+
+---
+
+## Live Coding Prep -- Finance & CRM
+
+If you're interviewing at a **large-scale finance company** or **CRM platform**, use [`LIVE_CODING_45MIN_FINANCE_CRM.md`](LIVE_CODING_45MIN_FINANCE_CRM.md). It covers:
+
+| # | Problem | Domain | Key Pattern |
+|---|---------|--------|-------------|
+| 1 | Money Transfer Service | Finance | Error handling, locks, audit log |
+| 2 | Idempotent Payment Processor | Finance | Idempotency keys, exactly-once |
+| 3 | Order Book / Matching Engine | Trading | Sorting, price-time priority |
+| 4 | Event-Sourced Account Ledger | Finance | Event sourcing, immutable log |
+| 5 | CRM Lead Scoring Pipeline | CRM | Strategy pattern, state machine |
+| 6 | Rate-Limited API Gateway | Both | Sliding window algorithm |
+| 7 | Contact Deduplication | CRM | Indexing, normalization |
+| 8 | Activity Timeline + Pagination | CRM | Cursor-based pagination |
+| 9 | Workflow State Machine | CRM | State machine with hooks |
+
+Also includes: thinking-out-loud scripts, a minute-by-minute 45-min simulation, algorithm problems finance loves (Top-K, LRU Cache, merge sorted streams), and a cheat sheet of patterns to name-drop.
 
 ---
 
